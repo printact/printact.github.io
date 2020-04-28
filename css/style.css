@@ -39,6 +39,8 @@ body {
   background: #ffffff;
 }
 
+
+
 p {
   line-height: 1.8;
 }
@@ -774,6 +776,14 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 100px;
   padding-bottom: 100px;
   position: relative;
+}
+
+.wc-box-icon {
+  font-size: 100 px;
+}
+
+.mdi {
+  font-size: 100 px;
 }
 
 .bg-overlay {
