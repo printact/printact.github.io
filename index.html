@@ -20,6 +20,7 @@
     <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
     <link href="css/style.min.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
 
 </head>
 
@@ -158,6 +159,7 @@
                                     <h1 style="font-size: 5em">
                                         <i class="mdi mdi-database-lock"></i>
                                     </h1>
+                                    
                                 </div>
                                 <h5 class="font-weight-bold mb-2 wc-title mt-4">Industrial-level Security with Data Privacy</h5>
                                 <p class="text-muted mb-0 font-size-15 wc-subtitle">With our state-of-the-art cloud computing partners, your data and server are secured with industrial standards </p>
@@ -508,11 +510,11 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-8">
                     <div class="text-center mb-5">
-                        <h4 class="text-uppercase mb-0">Get In Touch</h4>
+                        <h4 class="text-uppercase mb-0">Contact Us</h4>
                         <div class="my-3">
                             <img src="images/title-border.png" alt="" class="img-fluid mx-auto d-block">
                         </div>
-                        <p class="text-muted f-14">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                        <p class="text-muted f-14">Interested in applying d-biz fund?</p>
                     </div>
                 </div>
             </div>
@@ -543,39 +545,75 @@
                 <div class="col-lg-7 offset-lg-1">
                     <div class="custom-form mt-4 mt-lg-0">
                         <div id="message"></div>
-                        <form method="post" action="php/contact.php" name="contact-form" id="contact-form">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="form-group app-label">
-                                        <label for="name">Name</label>
-                                        <input name="name" id="name" type="text" class="form-control" placeholder="Enter your name..">
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="form-group app-label">
-                                        <label for="email">Email address</label>
-                                        <input name="email" id="email" type="email" class="form-control" placeholder="Enter your email..">
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="form-group app-label">
-                                        <label for="subject">Subject</label>
-                                        <input type="text" class="form-control" id="subject" placeholder="Enter Subject.." />
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="form-group app-label">
-                                        <label for="comments">Message</label>
-                                        <textarea name="comments" id="comments" rows="3" class="form-control" placeholder="Enter message.."></textarea>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-12">
-                                    <button type="submit" id="submit" name="send" class="btn btn-primary">Send Message <i class="mdi mdi-telegram ml-2"></i></button>
-                                    <div id="simple-msg"></div>
-                                </div>
-                            </div>
+                        <form action="https://send.pageclip.co/pQj7XjdHKTs0T43CEFRH5fALko34T542/d-biz" class="pageclip-form" method="post">
+                                        
+                            <!-- text field -->
+                            Name <br>
+                            First Name* <input type="text" name="first_name" placeholder="John" required />
+                            <Br>Last Name* <input type="text" name="last_name" placeholder="Chan" required/>
+                            <br>
+                            <br>
+                            Email*:
+                            <input type="email" name="email" value="" required />
+                            <br>
+                            <br>
+                            Contact Number (Area Code + Your Number):
+                            <input type="number" name="number" value="" required/>
+                            <br>
+                            <br>
+                            Company Name:
+                            <input type="text" name="company_name" value="" required/>
+                            <br>
+                          
+                              <br>Demo Requested?
+                              <input type="checkbox" name="Demo" id="demo" />
+                              <label htmlFor="Demo"> Yes </label>
+                              <br>
+
+                              <br>
+                              <!-- checkboxes -->
+                              Technology solution interested?
+                              <br>
+                              <input type="checkbox" name="interested[ecommerce]" id="ecommerce" />
+                              <label htmlFor="ecommerce">Online Store/ Ecommerce 🛒</label>
+                              <br>
+                              <input type="checkbox" name="interested[E-marketing]" id="pizza" />
+                              <label htmlFor="E-marketing">Digital marketing 📢</label>
+                              <br>
+                              <input type="checkbox" name="interested[delivery]" id="delivery" />
+                              <label htmlFor="delivery">Online order taking & delivery, smart self-service system 🚚</label>
+                              <br>
+                              <input type="checkbox" name="interested[customer_service]" id="customer_service" />
+                              <label htmlFor="customer_service">Online customer services & engagement 💬</label>
+                              <br>
+                              <input type="checkbox" name="interested[document]" id="document"/>
+                              <label htmlFor="document">Remote document management, cloud storage & remote access services ☁️</label>
+                              <br>
+                              <input type="checkbox" name="interested[digital_experience]" id="ecommerce" />
+                              <label htmlFor="ecommerce">Digital customer experience enhancement</label>
+                              <br>
+                              <input type="checkbox" name="interested[E-finance]" id="pizza" />
+                              <label htmlFor="E-marketing">Cloud based Financial management system</label>
+                              <br>
+                              <input type="checkbox" name="interested[E-HR]" id="delivery" />
+                              <label htmlFor="delivery">Cloud based Human resources management system</label>
+                              <br>
+                              <input type="checkbox" name="interested[E-meeting]" id="customer_service" />
+                              <label htmlFor="customer_service">Virtual meeting & conference tool</label>
+                              <br>
+                              <input type="checkbox" name="interested[cybersecurity]" id="document"/>
+                              <label htmlFor="document">Cybersecurity</label>
+                              <br>
+                              <input type="checkbox" name="interested[ERP]" id="document"/>
+                              <label htmlFor="document">ERP</label>
+                              <br>
+                              <!-- hidden inputs -->
+                              <input type="hidden" name="version" value="v1" />
+                              <button class="pageclip-form__submit" type="submit">
+                                  <span>Submit</span>
+                              </button>
+           
+                              
                         </form>
                     </div>
                 </div>
@@ -650,6 +688,8 @@
     <script src="js/owl.carousel.min.js"></script>
     <!-- Main Js -->
     <script src="js/app.js"></script>
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+
 
 </body>
 </html>
